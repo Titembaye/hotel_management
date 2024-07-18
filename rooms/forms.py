@@ -1,7 +1,7 @@
 # rooms/forms.py
 
 from django import forms
-from .models import Reservation
+from .models import Reservation, GalleryImage
 
 class ReservationForm(forms.ModelForm):
     class Meta:
@@ -11,3 +11,10 @@ class ReservationForm(forms.ModelForm):
             'check_in_date': forms.DateInput(attrs={'type': 'date'}),
             'check_out_date': forms.DateInput(attrs={'type': 'date'}),
         }
+
+
+class GalleryImageForm(forms.ModelForm):
+    class Meta:
+        model = GalleryImage
+        fields = ['image', 'title', 'is_visible']
+

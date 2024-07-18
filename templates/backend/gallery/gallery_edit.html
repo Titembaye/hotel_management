@@ -1,0 +1,41 @@
+{% extends 'backend/index.html' %}
+
+{% block 'content' %}
+<div class="page-header">
+    <h3 class="page-title"> Edit Image </h3>
+    <nav aria-label="breadcrumb">
+    </nav>
+</div>
+<div class="row">
+    <div class="col-lg-8 mx-auto grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Edit Image - {{ image.title }}</h4>
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="id_image">Image</label>
+                        <input type="file" class="form-control" id="id_image" name="image" accept="image/*">
+                        {% if image.image %}
+                            <img src="{{ image.image.url }}" alt="{{ image.title }}" class="img-thumbnail mt-2" style="width: 150px; height: 150px;">
+                        {% endif %}
+                    </div>
+                    <div class="form-group">
+                        <label for="id_title">Title</label>
+                        <input type="text" class="form-control" id="id_title" name="title" value="{{ form.title.value }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="id_is_visible">Status</label>
+                        <select class="form-control" id="id_is_visible" name="is_visible">
+                            <option value="True" {% if form.is_visible.value == True %}selected{% endif %}>Visible</option>
+                            <option value="False" {% if form.is_visible.value == False %}selected{% endif %}>Hidden</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                    <a href="{% url 'gallery_list' %}" class="btn btn-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 09:10+0000\n"
+"POT-Creation-Date: 2024-07-16 11:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #: hotel_management/settings.py:112
 msgid "English"
 msgstr ""
@@ -26,47 +25,66 @@ msgstr ""
 msgid "French"
 msgstr ""
 
-#: hotel_management/views.py:6
+#: hotel_management/views.py:9 hotel_management/views.py:19
+#: hotel_management/views.py:27 hotel_management/views.py:35
+#: hotel_management/views.py:43
 msgid "Welcome text"
 msgstr ""
 
-#: templates/partials/_navbar.html:25
-msgid "Home"
-msgstr ""
-
-#: templates/partials/_navbar.html:26
-msgid "Rooms"
-msgstr ""
-
-#: templates/partials/_navbar.html:27
-msgid "Restaurant"
-msgstr ""
-
-#: templates/partials/_navbar.html:28
+#: templates/frontend/partials/_about.html:11
+#: templates/frontend/partials/_navbar.html:28
 msgid "About"
 msgstr ""
 
-#: templates/partials/_navbar.html:29
+#: templates/frontend/partials/_about.html:13
+msgid "About Us"
+msgstr ""
+
+#: templates/frontend/partials/_gallery.html:7
+msgid "Gallery"
+msgstr ""
+
+#: templates/frontend/partials/_navbar.html:25
+msgid "Home"
+msgstr ""
+
+#: templates/frontend/partials/_navbar.html:26
+msgid "Rooms"
+msgstr ""
+
+#: templates/frontend/partials/_navbar.html:27
+msgid "Restaurant"
+msgstr ""
+
+#: templates/frontend/partials/_navbar.html:29
 msgid "Contact"
 msgstr ""
 
-#: templates/partials/_navbar.html:33
+#: templates/frontend/partials/_navbar.html:33
 msgid "Login"
 msgstr ""
 
-#: templates/partials/_navbar.html:42
+#: templates/frontend/partials/_navbar.html:42
 msgid "Language"
 msgstr ""
 
-#: templates/partials/_welcome.html:15
+#: templates/frontend/partials/_slides.html:10
+msgid "Welcome To Jardin des Etoiles"
+msgstr ""
+
+#: templates/frontend/partials/_slides.html:24
+msgid "Enjoy A Luxury Experience"
+msgstr ""
+
+#: templates/frontend/partials/_welcome.html:15
 msgid "Welcome to Deluxe Hotel"
 msgstr ""
 
-#: templates/partials/_welcome.html:16
+#: templates/frontend/partials/_welcome.html:16
 msgid "Welcome To Our Hotel"
 msgstr ""
 
-#: templates/partials/_welcome.html:20
+#: templates/frontend/partials/_welcome.html:20
 msgid ""
 "\n"
 "                    <p>\n"

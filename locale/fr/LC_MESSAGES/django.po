@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 09:10+0000\n"
+"POT-Creation-Date: 2024-07-16 11:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,56 +17,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
 #: hotel_management/settings.py:112
 msgid "English"
 msgstr ""
 
 #: hotel_management/settings.py:113
 msgid "French"
-msgstr "Francais"
+msgstr ""
 
-#: hotel_management/views.py:6
+#: hotel_management/views.py:9 hotel_management/views.py:19
+#: hotel_management/views.py:27 hotel_management/views.py:35
+#: hotel_management/views.py:43
 msgid "Welcome text"
-msgstr "Texte de Bienvenue"
+msgstr ""
 
-#: templates/partials/_navbar.html:25
-msgid "Home"
-msgstr "Acceuil"
-
-#: templates/partials/_navbar.html:26
-msgid "Rooms"
-msgstr "Chambres"
-
-#: templates/partials/_navbar.html:27
-msgid "Restaurant"
-msgstr "Restaurant"
-
-#: templates/partials/_navbar.html:28
+#: templates/frontend/partials/_about.html:11
+#: templates/frontend/partials/_navbar.html:28
 msgid "About"
-msgstr "À propos"
+msgstr ""
 
-#: templates/partials/_navbar.html:29
+#: templates/frontend/partials/_about.html:13
+msgid "About Us"
+msgstr ""
+
+#: templates/frontend/partials/_gallery.html:7
+msgid "Gallery"
+msgstr ""
+
+#: templates/frontend/partials/_navbar.html:25
+msgid "Home"
+msgstr ""
+
+#: templates/frontend/partials/_navbar.html:26
+msgid "Rooms"
+msgstr ""
+
+#: templates/frontend/partials/_navbar.html:27
+msgid "Restaurant"
+msgstr ""
+
+#: templates/frontend/partials/_navbar.html:29
 msgid "Contact"
-msgstr "Contact"
+msgstr ""
 
-#: templates/partials/_navbar.html:33
+#: templates/frontend/partials/_navbar.html:33
 msgid "Login"
-msgstr "Se connecter"
+msgstr ""
 
-#: templates/partials/_navbar.html:42
+#: templates/frontend/partials/_navbar.html:42
 msgid "Language"
-msgstr "Langue"
+msgstr ""
 
-#: templates/partials/_welcome.html:15
+#: templates/frontend/partials/_slides.html:10
+msgid "Welcome To Jardin des Etoiles"
+msgstr ""
+
+#: templates/frontend/partials/_slides.html:24
+msgid "Enjoy A Luxury Experience"
+msgstr ""
+
+#: templates/frontend/partials/_welcome.html:15
 msgid "Welcome to Deluxe Hotel"
-msgstr "Bienvenue à Deluxe Hotel"
+msgstr ""
 
-#: templates/partials/_welcome.html:16
+#: templates/frontend/partials/_welcome.html:16
 msgid "Welcome To Our Hotel"
-msgstr "Bienvenue à notre Hotel"
+msgstr ""
 
-#: templates/partials/_welcome.html:20
+#: templates/frontend/partials/_welcome.html:20
 msgid ""
 "\n"
 "                    <p>\n"
@@ -80,4 +98,4 @@ msgid ""
 "moments of authentic pleasure.\n"
 "                    </p>\n"
 "                    "
-msgstr "Bienvenue au Jardin des Étoiles, votre oasis de détente et de gourmandise situé à Gbatopé, à seulement 10 km de Tsévié. Notre bar restaurant hôtel vous invite à savourer une expérience culinaire unique, harmonieusement orchestrée sous un ciel étoilé. Que ce soit pour une escapade romantique, une réunion entre amis ou une célébration spéciale, plongez dans notre cadre enchanteur où la nature se marie à la gastronomie pour créer des souvenirs inoubliables."
+msgstr ""
